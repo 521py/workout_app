@@ -13,8 +13,13 @@
 
 	> button {
 		font-size: 30px;
-		> svg > path {
-			fill: #fff;
+
+		> svg {
+			animation: opacity 0.4s;
+
+			> path {
+				fill: #fff;
+			}
 		}
 	}
 
@@ -24,7 +29,7 @@
 		right: 0;
 		background-color: #fff;
 		padding: 10px 12px;
-		font-size: 14px;
+		font-size: 18px;
 		box-shadow: $bx-16;
 		border-radius: 10px 0 10px 10px;
 		min-width: 116px;
@@ -37,6 +42,10 @@
 
 		> ul {
 			list-style: none;
+
+			button {
+				font-size: 18px;
+			}
 
 			li {
 				color: #000;
