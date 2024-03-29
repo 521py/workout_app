@@ -1,0 +1,22 @@
+@import '../../../assets/styles/\ _variables.scss';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+
+		> svg {
+			font-size: 29px;
+
+			> path {
+				fill: #fff;
+			}
+		}
+	}
+}
