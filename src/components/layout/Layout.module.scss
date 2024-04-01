@@ -44,6 +44,7 @@
 	bottom: 0;
 	left: 0;
 	opacity: 1;
+	border-radius: 0 0 20px 20px;
 }
 
 .heading {
@@ -58,7 +59,8 @@
 }
 
 section {
-	div {
+	> div {
 		z-index: 1;
+		// margin: 0 auto;
 	}
 }
