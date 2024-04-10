@@ -7,8 +7,7 @@ import Field from '../../ui/field/Field'
 
 import Layout from '../../layout/Layout'
 
-// import styles from '../Auth.module.scss'
-import styles from '../auth/Auth.module.scss'
+import styles from './Auth.module.scss'
 
 const isLoading = false
 const isLoadingAuth = false

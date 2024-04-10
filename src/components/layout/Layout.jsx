@@ -1,6 +1,6 @@
 import cn from 'clsx'
 
-import styles from '../layout/Layout.module.scss'
+import styles from './Layout.module.scss'
 import Header from './header/Header'
 
 const Layout = ({ children, bgImage, heading = '', backLink = '/' }) => {
