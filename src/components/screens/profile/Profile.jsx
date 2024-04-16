@@ -48,7 +48,7 @@ const Profile = () => {
 					{data?.images?.map((image, index) => (
 						<div key={image}>
 							<div className={styles.heading}>
-								{index === 1 ? 'After.jpg' : 'Before.jpg'}
+								{index === 1 ? 'After' : 'Before'}
 							</div>
 							<img
 								src={image}
